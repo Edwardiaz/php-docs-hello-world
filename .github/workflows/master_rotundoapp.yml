@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+      - name: Log in to Azure
+        uses: azure/login@v1
         with:
           php-version: 'PHP|8.3'
 
